@@ -9,8 +9,6 @@
 
 static NSString *const BasicUrl = @"http://api.openweathermap.org";
 static NSString *const WeatherCityNameUrl = @"/data/2.5/weather?q=%@,uk&appid=37e0cb1eed95e56934c68507ca80d49f&mine=true";
-
-static NSString *const BasicUrl1 = @"http://api.openweathermap.org";
 static NSString *const UserCityNameUrl1 = @"/data/2.5/weather?lat=%@&lon=%@&appid=37e0cb1eed95e56934c68507ca80d49f";
 
 @interface SWMainViewController ()<UITextFieldDelegate,MyMapProtocol>
@@ -76,7 +74,7 @@ static NSString *const UserCityNameUrl1 = @"/data/2.5/weather?lat=%@&lon=%@&appi
                 NSLog(@"Location found from Map %@ %@",latt,longg);
                 NSURLSessionConfiguration *configuration = [NSURLSessionConfiguration defaultSessionConfiguration];
                 AFHTTPSessionManager *manager = [[AFHTTPSessionManager alloc] initWithSessionConfiguration:configuration];
-                NSString *urlString = [BasicUrl1 stringByAppendingString:UserCityNameUrl1];
+                NSString *urlString = [BasicUrl stringByAppendingString:UserCityNameUrl1];
                 urlString = [NSString stringWithFormat:urlString, latt,longg];
                 NSURL *url = [NSURL URLWithString:urlString];
                 [manager GET:url.absoluteString parameters:nil progress:nil success:^(NSURLSessionTask *task, id responseObject) {
