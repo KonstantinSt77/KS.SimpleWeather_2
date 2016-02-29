@@ -1,4 +1,4 @@
-# Simple Weather
+# Simple Weather 2.0
 
 This simple application need to view the weather in any city of the world. 
 The app is delivering to the user the following information requested by the city:
@@ -18,12 +18,13 @@ Also the user have 2 variants to search weather in the city:
 * **tap on the map and select the appropriate city in a new window**
 
 During writing the application code we used:
+* **CocoaPods**
+* **AFNetworking**
 * **Mapkit**
+* **Custom Pin**
 * **Gestures**
-* **Constants**
-* **File Manager(W/R Files)**
-* **URLSession**
 * **Parcing Request**
+* **Protocol\Delegate Construction**
 * **Visualization Weather condition**
 
 The speed and stability of the application to crash was maximized.
