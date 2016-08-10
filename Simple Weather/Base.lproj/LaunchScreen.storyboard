@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -54,6 +54,16 @@
                                     <constraint firstAttribute="height" constant="128" id="dhe-24-6oK"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2016" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v2i-9h-9GP">
+                                <rect key="frame" x="192" y="559" width="217" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="AAR-Mn-upb"/>
+                                    <constraint firstAttribute="width" constant="217" id="Pb5-75-JVH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -63,7 +73,9 @@
                             <constraint firstItem="wdO-Ad-8l3" firstAttribute="top" secondItem="iPz-HN-baW" secondAttribute="bottom" constant="150" id="RFX-DO-BaV"/>
                             <constraint firstItem="nVi-WF-2c5" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="dsg-UJ-kNb"/>
                             <constraint firstItem="nvi-dn-DtB" firstAttribute="top" secondItem="iPz-HN-baW" secondAttribute="bottom" constant="177" id="imV-li-dDk"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="v2i-9h-9GP" secondAttribute="bottom" constant="8" id="kqm-DA-bf0"/>
                             <constraint firstItem="nvi-dn-DtB" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="mKV-0t-Mdh"/>
+                            <constraint firstItem="v2i-9h-9GP" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="vds-BU-EZN"/>
                             <constraint firstItem="nVi-WF-2c5" firstAttribute="top" secondItem="iPz-HN-baW" secondAttribute="bottom" constant="8" id="y7O-FR-mcS"/>
                         </constraints>
                     </view>

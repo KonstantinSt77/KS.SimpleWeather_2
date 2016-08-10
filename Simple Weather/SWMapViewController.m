@@ -38,8 +38,8 @@
             
             MKPointAnnotation *annotation = [[MKPointAnnotation alloc] init];
             annotation.coordinate = mapCoordinate;
-            annotation.title = @"Added point";
-            annotation.subtitle = @"pointtt";
+            annotation.title = @"New point";
+            annotation.subtitle = @"information";
             [self.mapView addAnnotation:annotation];
             [self.delegate didSelectLocation:mapCoordinate];
         }
