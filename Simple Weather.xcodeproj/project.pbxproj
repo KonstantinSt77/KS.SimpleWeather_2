@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5C4C41E11C61313C00CAB4EF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C4C41E01C61313B00CAB4EF /* MapKit.framework */; };
 		5C4C41E41C6131ED00CAB4EF /* SWMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4C41E31C6131ED00CAB4EF /* SWMapViewController.m */; };
 		8B1C5F541C26A3DB00BE5854 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1C5F531C26A3DB00BE5854 /* main.m */; };
 		8B1C5F571C26A3DB00BE5854 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1C5F561C26A3DB00BE5854 /* AppDelegate.m */; };
@@ -15,8 +14,10 @@
 		8B1C5F5F1C26A3DB00BE5854 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B1C5F5E1C26A3DB00BE5854 /* Assets.xcassets */; };
 		8B1C5F6D1C26A3DB00BE5854 /* Simple_WeatherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1C5F6C1C26A3DB00BE5854 /* Simple_WeatherTests.m */; };
 		8B1C5F781C26A3DB00BE5854 /* Simple_WeatherUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1C5F771C26A3DB00BE5854 /* Simple_WeatherUITests.m */; };
-		8B554CCD1C68EF4A0009CC67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B554CC91C68EF4A0009CC67 /* LaunchScreen.storyboard */; };
-		8B554CCE1C68EF4A0009CC67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B554CCB1C68EF4A0009CC67 /* Main.storyboard */; };
+		8B42E5D91FA3518B001EF826 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B42E5D81FA35183001EF826 /* MapKit.framework */; };
+		8B42E5DC1FA352B1001EF826 /* SWConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B42E5DB1FA352B1001EF826 /* SWConstants.m */; };
+		8B42E5E51FA35B25001EF826 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B42E5E11FA35B24001EF826 /* Main.storyboard */; };
+		8B42E5E61FA35B25001EF826 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B42E5E31FA35B25001EF826 /* LaunchScreen.storyboard */; };
 		C129A03299A5B0E94FF67DDD /* libPods-Simple Weather.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DD718221339677F651F0366 /* libPods-Simple Weather.a */; };
 /* End PBXBuildFile section */
 
@@ -39,7 +40,6 @@
 
 /* Begin PBXFileReference section */
 		3DD718221339677F651F0366 /* libPods-Simple Weather.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Simple Weather.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C4C41E01C61313B00CAB4EF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		5C4C41E21C6131ED00CAB4EF /* SWMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWMapViewController.h; sourceTree = "<group>"; };
 		5C4C41E31C6131ED00CAB4EF /* SWMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWMapViewController.m; sourceTree = "<group>"; };
 		7BB061E90ED3567C18233E1A /* Pods-Simple Weather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Simple Weather.release.xcconfig"; path = "Pods/Target Support Files/Pods-Simple Weather/Pods-Simple Weather.release.xcconfig"; sourceTree = "<group>"; };
@@ -57,8 +57,11 @@
 		8B1C5F731C26A3DB00BE5854 /* Simple WeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simple WeatherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B1C5F771C26A3DB00BE5854 /* Simple_WeatherUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Simple_WeatherUITests.m; sourceTree = "<group>"; };
 		8B1C5F791C26A3DB00BE5854 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8B554CCA1C68EF4A0009CC67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Simple Weather/Base.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
-		8B554CCC1C68EF4A0009CC67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Simple Weather/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		8B42E5D81FA35183001EF826 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		8B42E5DA1FA352B1001EF826 /* SWConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWConstants.h; sourceTree = "<group>"; };
+		8B42E5DB1FA352B1001EF826 /* SWConstants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWConstants.m; sourceTree = "<group>"; };
+		8B42E5E21FA35B24001EF826 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Simple Weather/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		8B42E5E41FA35B25001EF826 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Simple Weather/Base.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
 		D692C93B60B592322B54EBEB /* Pods-Simple Weather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Simple Weather.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Simple Weather/Pods-Simple Weather.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -67,7 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C4C41E11C61313C00CAB4EF /* MapKit.framework in Frameworks */,
+				8B42E5D91FA3518B001EF826 /* MapKit.framework in Frameworks */,
 				C129A03299A5B0E94FF67DDD /* libPods-Simple Weather.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -92,7 +95,6 @@
 		8B1C5F461C26A3DB00BE5854 = {
 			isa = PBXGroup;
 			children = (
-				5C4C41E01C61313B00CAB4EF /* MapKit.framework */,
 				8B1C5F511C26A3DB00BE5854 /* Simple Weather */,
 				8B1C5F6B1C26A3DB00BE5854 /* Simple WeatherTests */,
 				8B1C5F761C26A3DB00BE5854 /* Simple WeatherUITests */,
@@ -116,27 +118,12 @@
 		8B1C5F511C26A3DB00BE5854 /* Simple Weather */ = {
 			isa = PBXGroup;
 			children = (
-				8B1C5F551C26A3DB00BE5854 /* AppDelegate.h */,
-				8B1C5F561C26A3DB00BE5854 /* AppDelegate.m */,
-				8B1C5F581C26A3DB00BE5854 /* SWMainViewController.h */,
-				8B1C5F591C26A3DB00BE5854 /* SWMainViewController.m */,
-				5C4C41E21C6131ED00CAB4EF /* SWMapViewController.h */,
-				5C4C41E31C6131ED00CAB4EF /* SWMapViewController.m */,
-				8B554CC91C68EF4A0009CC67 /* LaunchScreen.storyboard */,
-				8B554CCB1C68EF4A0009CC67 /* Main.storyboard */,
-				8B1C5F5E1C26A3DB00BE5854 /* Assets.xcassets */,
-				8B1C5F631C26A3DB00BE5854 /* Info.plist */,
-				8B1C5F521C26A3DB00BE5854 /* Supporting Files */,
+				8B42E5DE1FA35A6C001EF826 /* Constants */,
+				8B42E5DF1FA35A95001EF826 /* ViewControllers */,
+				8B42E5E01FA35AAF001EF826 /* Interface */,
+				8B42E5DD1FA35A3C001EF826 /* Defaults */,
 			);
 			path = "Simple Weather";
-			sourceTree = "<group>";
-		};
-		8B1C5F521C26A3DB00BE5854 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				8B1C5F531C26A3DB00BE5854 /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		8B1C5F6B1C26A3DB00BE5854 /* Simple WeatherTests */ = {
@@ -157,6 +144,47 @@
 			path = "Simple WeatherUITests";
 			sourceTree = "<group>";
 		};
+		8B42E5DD1FA35A3C001EF826 /* Defaults */ = {
+			isa = PBXGroup;
+			children = (
+				8B1C5F531C26A3DB00BE5854 /* main.m */,
+				8B1C5F551C26A3DB00BE5854 /* AppDelegate.h */,
+				8B1C5F561C26A3DB00BE5854 /* AppDelegate.m */,
+				8B1C5F631C26A3DB00BE5854 /* Info.plist */,
+			);
+			name = Defaults;
+			sourceTree = "<group>";
+		};
+		8B42E5DE1FA35A6C001EF826 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				8B42E5DA1FA352B1001EF826 /* SWConstants.h */,
+				8B42E5DB1FA352B1001EF826 /* SWConstants.m */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		8B42E5DF1FA35A95001EF826 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8B1C5F581C26A3DB00BE5854 /* SWMainViewController.h */,
+				8B1C5F591C26A3DB00BE5854 /* SWMainViewController.m */,
+				5C4C41E21C6131ED00CAB4EF /* SWMapViewController.h */,
+				5C4C41E31C6131ED00CAB4EF /* SWMapViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8B42E5E01FA35AAF001EF826 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				8B42E5E31FA35B25001EF826 /* LaunchScreen.storyboard */,
+				8B42E5E11FA35B24001EF826 /* Main.storyboard */,
+				8B1C5F5E1C26A3DB00BE5854 /* Assets.xcassets */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
 		CD8FE269FC35B2821739FC03 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -169,6 +197,7 @@
 		F4D8EC3FD1F8234917B07802 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8B42E5D81FA35183001EF826 /* MapKit.framework */,
 				3DD718221339677F651F0366 /* libPods-Simple Weather.a */,
 			);
 			name = Frameworks;
@@ -284,9 +313,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B554CCE1C68EF4A0009CC67 /* Main.storyboard in Resources */,
+				8B42E5E61FA35B25001EF826 /* LaunchScreen.storyboard in Resources */,
 				8B1C5F5F1C26A3DB00BE5854 /* Assets.xcassets in Resources */,
-				8B554CCD1C68EF4A0009CC67 /* LaunchScreen.storyboard in Resources */,
+				8B42E5E51FA35B25001EF826 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,6 +390,7 @@
 			files = (
 				8B1C5F5A1C26A3DB00BE5854 /* SWMainViewController.m in Sources */,
 				8B1C5F571C26A3DB00BE5854 /* AppDelegate.m in Sources */,
+				8B42E5DC1FA352B1001EF826 /* SWConstants.m in Sources */,
 				8B1C5F541C26A3DB00BE5854 /* main.m in Sources */,
 				5C4C41E41C6131ED00CAB4EF /* SWMapViewController.m in Sources */,
 			);
@@ -398,22 +428,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8B554CC91C68EF4A0009CC67 /* LaunchScreen.storyboard */ = {
+		8B42E5E11FA35B24001EF826 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8B554CCA1C68EF4A0009CC67 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			path = ..;
-			sourceTree = "<group>";
-		};
-		8B554CCB1C68EF4A0009CC67 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8B554CCC1C68EF4A0009CC67 /* Base */,
+				8B42E5E21FA35B24001EF826 /* Base */,
 			);
 			name = Main.storyboard;
-			path = ..;
+			sourceTree = "<group>";
+		};
+		8B42E5E31FA35B25001EF826 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B42E5E41FA35B25001EF826 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
