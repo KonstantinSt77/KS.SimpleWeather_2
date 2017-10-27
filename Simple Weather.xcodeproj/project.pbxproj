@@ -18,6 +18,7 @@
 		8B42E5DC1FA352B1001EF826 /* SWConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B42E5DB1FA352B1001EF826 /* SWConstants.m */; };
 		8B42E5E51FA35B25001EF826 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B42E5E11FA35B24001EF826 /* Main.storyboard */; };
 		8B42E5E61FA35B25001EF826 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B42E5E31FA35B25001EF826 /* LaunchScreen.storyboard */; };
+		8B42E5E81FA35C3C001EF826 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8B42E5E71FA35C3C001EF826 /* README.md */; };
 		C129A03299A5B0E94FF67DDD /* libPods-Simple Weather.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DD718221339677F651F0366 /* libPods-Simple Weather.a */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +63,7 @@
 		8B42E5DB1FA352B1001EF826 /* SWConstants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWConstants.m; sourceTree = "<group>"; };
 		8B42E5E21FA35B24001EF826 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Simple Weather/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
 		8B42E5E41FA35B25001EF826 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Simple Weather/Base.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
+		8B42E5E71FA35C3C001EF826 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		D692C93B60B592322B54EBEB /* Pods-Simple Weather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Simple Weather.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Simple Weather/Pods-Simple Weather.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -147,6 +149,7 @@
 		8B42E5DD1FA35A3C001EF826 /* Defaults */ = {
 			isa = PBXGroup;
 			children = (
+				8B42E5E71FA35C3C001EF826 /* README.md */,
 				8B1C5F531C26A3DB00BE5854 /* main.m */,
 				8B1C5F551C26A3DB00BE5854 /* AppDelegate.h */,
 				8B1C5F561C26A3DB00BE5854 /* AppDelegate.m */,
@@ -315,6 +318,7 @@
 			files = (
 				8B42E5E61FA35B25001EF826 /* LaunchScreen.storyboard in Resources */,
 				8B1C5F5F1C26A3DB00BE5854 /* Assets.xcassets in Resources */,
+				8B42E5E81FA35C3C001EF826 /* README.md in Resources */,
 				8B42E5E51FA35B25001EF826 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
